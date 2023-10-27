@@ -75,7 +75,7 @@ button:hover {
         });
 
         function fetchQuizData() {
-            const apiUrl = "https://opentdb.com/api.php?amount=1&category=9&difficulty=easy&type=multiple";
+            const apiUrl = "https://opentdb.com/api.php?amount=5&category=9&difficulty=easy&type=multiple";
             fetch(apiUrl)
                 .then(response => response.json())
                 .then(data => {
