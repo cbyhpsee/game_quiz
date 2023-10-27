@@ -87,7 +87,7 @@ button:hover {
             const shuffledAnswers = shuffleArray(allAnswers);
 
             shuffledAnswers.forEach(answer => {
-                const li = document.createElement("li.btn.btn-primary");
+                const li = document.createElement("li class='btn btn-primary'");
                 li.textContent = answer;
                 li.addEventListener("click", () => checkAnswer(answer, question.correct_answer));
                 answersElement.appendChild(li);
